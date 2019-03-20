@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailMenu">
+
+    <ImageView
+        android:id="@+id/detailImageView"
+        android:layout_width="237dp"
+        android:layout_height="246dp"
+        android:layout_marginTop="134dp"
+        android:layout_marginBottom="351dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.203"
+        tools:srcCompat="@tools:sample/avatars[0]" />
+
+    <TextView
+        android:id="@+id/detailName"
+        android:layout_width="240dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="27dp"
+        android:text="TextView"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/detailDescription"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/detailImageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/detailDescription"
+        android:layout_width="243dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="50dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/detailPrice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/detailImageView"
+        app:layout_constraintTop_toBottomOf="@+id/detailName" />
+
+    <TextView
+        android:id="@+id/detailPrice"
+        android:layout_width="88dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="462dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="181dp"
+        android:layout_marginBottom="80dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detailDescription" />
+</android.support.constraint.ConstraintLayout>
