@@ -9,12 +9,11 @@ Choose the category of food you would like to see, after choose a specific dish 
 
 # Screenhots
 
-![ScreenShot1](https://github.com/dutchfarao/restaurant/blob/master/doc/Screenshot_1.png)
+<img src="https://github.com/dutchfarao/restaurant/blob/master/doc/Screenshot_1.png" width="200" height="400" /> 
 
-![ScreenShot2](https://github.com/dutchfarao/restaurant/blob/master/doc/Screenshot_2.png)
+<img src="https://github.com/dutchfarao/restaurant/blob/master/doc/Screenshot_2.png" width="200" height="400" /> 
 
-![ScreenShot3](https://github.com/dutchfarao/restaurant/blob/master/doc/Screenshot_3.png)
-
+<img src="https://github.com/dutchfarao/restaurant/blob/master/doc/Screenshot_3.png" width="400" height="200" /> 
 
 
 ```
