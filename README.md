@@ -6,6 +6,11 @@ Restaurant is an android app where users can navigate through the menu of a rest
 ## Usage
 Choose the category of food you would like to see, after choose a specific dish to look at a detailed description.
 
+# Extra 
+
+- Implemented Saving and restoring for every activity state. 
+- Beautiful in both portrait and landscape mode.
+
 
 # Screenhots
 
